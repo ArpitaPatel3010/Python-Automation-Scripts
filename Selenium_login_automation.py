@@ -10,10 +10,10 @@ import time
 
 def login_automation():
     # Configuration
-    email = "your_email@example.com"
-    password = "your_password"
-    login_url = "your_login_url"
-    dashboard_url = "your_dashboard_url"
+    email = "email@example.com"
+    password = "password"
+    login_url = "login_url"
+    dashboard_url = "dashboard_url"
     driver_path = '/usr/local/bin/chromedriver'  # Path to your chromedriver executable
     driver_close_flag = 0
     should_driver_reason = "NA"
